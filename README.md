@@ -6,6 +6,22 @@ usuário realizar soma, subtração, multiplicação e divisão.
 
 A estrutura do programa foi organizada em funções para separar cada
 operação e facilitar a leitura, manutenção e reutilização do código.
+
+Como executar pelo arquivo .sh
+------------------------------
+1. Certifique-se de que os arquivos `iniciar.sh` e
+   `calculadora_documentada.py` estejam na mesma pasta.
+2. No terminal, acesse essa pasta.
+3. Dê permissão de execução ao inicializador com:
+
+       chmod +x iniciar.sh
+
+4. Execute o inicializador com:
+
+       ./iniciar.sh
+
+O arquivo `iniciar.sh` chama o interpretador Python 3 e executa
+`calculadora_documentada.py`.
 """
 
 
